@@ -21,10 +21,6 @@ export async function initScene() {
     camera.position.y = 12;
     camera.position.z = 22.5;
 
-    // setup axis helper
-    // const axesHelper = new THREE.AxesHelper(500);
-    // scene.add(axesHelper);
-
     // Set up the controls
     const orbitControls = new OrbitControls(camera, document.body);
     orbitControls.enableDamping = true;
